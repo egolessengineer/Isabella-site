@@ -16,7 +16,7 @@ const Hero = () => {
         <div className="flex flex-col justify-around items-center p-2 gap-10 md:flex-row">
           <div className="w-[90%] md:w-[60%] lg:w-[60%] flex flex-col items-start gap-5 font-rubik">
             <div className="text-4xl font-normal">
-              Hi, I'm <span className="font-bold">Isabella James</span> 🙋‍♀️
+              Hi, I&apos;m <span className="font-bold">Isabella James</span> 🙋‍♀️
             </div>
             <div className="text-xl font-normal text-wrap">
               As a seasoned realtor with five years of invaluable experience, I
