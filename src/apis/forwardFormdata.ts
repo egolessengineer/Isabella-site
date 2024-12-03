@@ -13,8 +13,10 @@ export const forwardFormdata = async (
       mail: mail,
       message: message,
     };
+    // console.log("backendurl:", process.env.APP_BACKEND_URL);
+    // if (process.env.APP_BACKEND_URL) {
     const res = await axios.post(
-      "https://still-sheepdog-quiet.ngrok-free.app/api/v1/forward",
+      `https://still-sheepdog-quiet.ngrok-free.app/api/v1/forward`,
       forwardrequest
     );
     if (res.status === 200) {
@@ -22,5 +24,8 @@ export const forwardFormdata = async (
     } else {
       return res.data.message;
     }
-  } catch (err) {}
+    // }
+  } catch (err) {
+    console.log(err);
+  }
 };
