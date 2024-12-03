@@ -28,7 +28,7 @@ const Hero = () => {
             </div>
           </div>
           <Avatar
-            // src="https://res.cloudinary.com/dq9alywlv/image/upload/v1733183132/f1c6pqo8hxp17kdzimop.jpg"
+            src="https://res.cloudinary.com/dq9alywlv/image/upload/v1733183132/f1c6pqo8hxp17kdzimop.jpg"
             //   size="lg"
             className="w-56 h-56"
             radius="full"
